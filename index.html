@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">  
+  <title>Busca CEP</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Busca CEP</h1>
+    <form id="buscaCep">
+      <label for="cep">Digite um CEP:</label>
+      <input type="text" name="cep" id="cep">
+      <input type="button" value="Buscar" id="btn">
+    </form>
+  
+    <div class="resultado"> 
+      <p>Logradouro: <span class="logradouro"></span></p>
+      <p>Bairro: <span class="bairro"></span></p>    
+      <p>Localidade: <span class="localidade"></span></p>    
+      <p>UF: <span class="uf"></span></p>    
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
